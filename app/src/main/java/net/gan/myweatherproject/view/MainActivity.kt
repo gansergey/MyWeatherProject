@@ -1,9 +1,10 @@
 package net.gan.myweatherproject.view
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import net.gan.myweatherproject.R
 import net.gan.myweatherproject.databinding.MainActivityBinding
+import net.gan.myweatherproject.view.main.MainFragment
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: MainActivityBinding
